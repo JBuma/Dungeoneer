@@ -29,9 +29,14 @@ html,
 body {
 	margin: 0;
 	padding: 0;
+	font-size: 18px;
 }
-.content {
+section > .content {
 	max-width: 80%;
 	margin: 0 auto;
+}
+h1.title {
+	margin: 0;
+	padding-top: 16px;
 }
 </style>
