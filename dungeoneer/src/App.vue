@@ -2,7 +2,7 @@
   <div id="app">
     <mainHeader></mainHeader>
     <!-- <div class="content"> -->
-      <router-view/>
+      <router-view id='main-view'/>
     <!-- </div> -->
     
   </div>
@@ -23,6 +23,12 @@ export default {
 	font-family: 'Inter-UI';
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+#main-view {
+	background: linear-gradient(140deg, rgb(255, 154, 38), rgb(255, 166, 0));
+	height: 100vh;
+	padding-top: 25px;
 }
 
 html,

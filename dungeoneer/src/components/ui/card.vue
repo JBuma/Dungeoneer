@@ -16,9 +16,9 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
-div.card {
-	background-color: #222;
+<style lang="scss">
+.card {
+	background-color: #2a2e38;
 	border-radius: 0.75em;
 	color: white;
 
