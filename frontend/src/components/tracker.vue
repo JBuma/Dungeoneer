@@ -64,7 +64,7 @@ export default {
 		},
 		sortInitiative: function() {
 			this.chars.sort((a, b) => {
-				return a.init - b.init;
+				return b.init - a.init;
 			});
 		},
 	},
