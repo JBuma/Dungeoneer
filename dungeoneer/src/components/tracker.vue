@@ -51,7 +51,7 @@ $color: #ff4500;
 }
 
 @for $i from 1 to 10 {
-	.characters div:nth-child(#{$i}) {
+	.characters > div:nth-child(#{$i}) {
 		background: darken($color: #ff4500, $amount: $i*4);
 	}
 }
@@ -61,7 +61,5 @@ $color: #ff4500;
 
 .characters div.char:last-of-type {
 	border-radius: 0 0 0.75em 0.75em;
-}
-.char:hover {
 }
 </style>
